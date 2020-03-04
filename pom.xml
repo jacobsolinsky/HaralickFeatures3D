@@ -13,16 +13,16 @@
 	</parent>
 
 	<groupId>imagej-tutorials</groupId>
-	<artifactId>add-rois</artifactId>
+	<artifactId>Haralick_Features_3D</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
-	<name>Add ROIs</name>
-	<description>This example shows how to add regions of interest (ROIs) to a display.</description>
+	<name>Haralick Features 3D</name>
+	<description>This plug in calculates Haralick Features for successive 2D planes of a 3d Image</description>
 	<url>https://github.com/[MY-ORG]/[MY-REPO]</url>
-	<inceptionYear>2013</inceptionYear>
+	<inceptionYear>2020</inceptionYear>
 	<organization>
-		<name>[MY-ORGANIZATION-NAME]</name>
-		<url>[MY-ORGANIZATION-WEB-SITE]</url>
+		<name>University of Minnesota - Department of Medicine - Cardiology Divison - van Berlo Lab</name>
+		<url>https://www.heart.umn.edu/our-research/van-berlo-lab</url>
 	</organization>
 	<licenses>
 		<license>
@@ -34,9 +34,9 @@
 
 	<developers>
 		<developer>
-			<id>[MY-GITHUB-ID]</id>
-			<name>[MY-FULL-NAME]</name>
-			<url>https://imagej.net/User:[MY-IMAGEJ-WIKI-ACCOUNT]</url>
+			<id>jacobsolinsky</id>
+			<name>Jacob Solinsky</name>
+			<url>https://github.com/jacobsolinsky/HaralickFeatures3D</url>
 		</developer>
 	</developers>
 	<contributors>
@@ -61,10 +61,10 @@
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>http://github.com/[MY-ORG]/[MY-REPO]/issues</url>
-	</issueManagement>
-	<ciManagement>
+	</issueManagement>	<ciManagement>
 		<system>None</system>
 	</ciManagement>
+
 
 	<properties>
 		<main-class>AddROIs</main-class>
@@ -72,7 +72,7 @@
 		<license.copyrightOwners>N/A</license.copyrightOwners>
 		<license.projectName>ImageJ software for multidimensional image processing and analysis.</license.projectName>
 	</properties>
-
+	
 	<repositories>
 		<repository>
 			<id>scijava.public</id>
